@@ -38,7 +38,7 @@ Check whether you have `Ruby 2.1.0` or higher installed:
 ruby --version
 ```
 
-Install `Bundler`:
+<!-- Install `Bundler`: -->
 
 ```sh
 gem install bundler
