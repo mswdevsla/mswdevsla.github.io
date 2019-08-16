@@ -4,8 +4,8 @@
 # ---------------------------------------------------------------
 
 # Site
-title: Moon SW Blog
-subtitle:
+title: 짜눙의 블로그
+subtitle: 기본을 탄탄하게 궁금한건 바로바로
 description:
 author: Moon SW
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
@@ -87,7 +87,7 @@ keywords: "Jekyll, NexT"
 rss:
 
 # Specify the date when the site was setup
-#since: 2015
+since: 2019
 
 # icon between year and author @Footer
 authoricon: heart
@@ -118,7 +118,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
@@ -233,7 +233,7 @@ social_icons:
 
 # Sidebar Avatar
 # in directory: /assets/images/avatar.gif
-#avatar:
+avatar: /assets/images/default_avatar.png
 
 
 # Table Of Contents in the Sidebar
@@ -380,8 +380,8 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: sw-blog-1
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
@@ -736,3 +736,4 @@ images: assets/images
 
 # Theme version
 version: 5.1.1
+
